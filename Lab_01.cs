@@ -85,7 +85,7 @@ namespace Lab_01
             str1.Split(' ');
             str2.Insert(13, str1);
             str3.Remove(10);
-            Console.WriteLine($"str1 = {str1}, str3 = {str3}");//инттерполяция
+            Console.WriteLine($"str1 = {str1}, str3 = {str3}");
 
             Console.WriteLine($"Строка emptyString пустая {String.IsNullOrEmpty(emptyString)}\nCтрока nullString = null {String.IsNullOrEmpty(nullString)}");
             Console.WriteLine($"Длина emptyString = {emptyString.Length}");
